@@ -3,7 +3,13 @@ import Home from '../views/Home.vue'
 import DataBinding from '../views/DataBinding.vue'
 import DataBindingHtml from '../views/DataBindingHtml.vue'
 import DataBindingInputText from '../views/DataBindingInputText.vue'
-
+import DataBindingInputNumber from '../views/DataBindingInputNumber.vue'
+import DataBindingTextarea from '../views/DataBindingTextarea.vue'
+import DataBindingSelect from '../views/DataBindingSelect.vue'
+import DataBindingCheckbox from '../views/DataBindingCheckbox.vue'
+import DataBindingCheckbox2 from '../views/DataBindingCheckbox2.vue'
+import DataBindingRadio from '../views/DataBindingRadio.vue'
+import DataBindingAttribute from '../views/DataBindingAttribute.vue'
 const routes = [
   {
     path: '/',
@@ -32,6 +38,41 @@ const routes = [
     path: '/databindingInputText',
     name: 'DataBindingInputText',
     component: DataBindingInputText
+  },
+  {
+    path: '/databindingInputNumber',
+    name: 'DataBindingInputNumber',
+    component: DataBindingInputNumber
+  },
+  {
+    path: '/databindingTextarea',
+    name: 'DataBindingTextarea',
+    component: DataBindingTextarea
+  },
+  {
+    path: '/databindingSelect',
+    name: 'DataBindingSelect',
+    component: DataBindingSelect
+  },
+  {
+    path: '/databindingCheckbox',
+    name: 'DataBindingCheckbox',
+    component: DataBindingCheckbox
+  },
+  {
+    path: '/databindingCheckbox2',
+    name: 'DataBindingCheckbox2',
+    component: DataBindingCheckbox2
+  },
+  {
+    path: '/databindingRadio',
+    name: 'DataBindingRadio',
+    component: DataBindingRadio
+  },
+  {
+    path: '/databindingAttribute',
+    name: 'DataBindingAttribute',
+    component: DataBindingAttribute
   }
 ]
 
