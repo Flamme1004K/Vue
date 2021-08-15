@@ -16,6 +16,15 @@
     <router-link to="/databindingClass">Data Binding Class</router-link> |
     <router-link to="/databindingClass2">Data Binding Class2</router-link> |
     <router-link to="/dataBindingStyle">Data Binding Style</router-link> |
+    <router-link to="/databindingList">Data Binding List</router-link> |
+    <router-link to="/databindingVIf">Data Binding VIf</router-link> |
+    <router-link to="/databindingVShow">Data Binding VShow</router-link> |
+    <router-link to="/eventClick">EventClick</router-link> |
+    <router-link to="/eventClick2">EventClick2</router-link> |
+    <router-link to="/eventClick3">EventClick3</router-link> |
+    <router-link to="/eventChange">EventChange</router-link> |
+    <router-link to="/computed">Computed</router-link> |
+    <router-link to="/watch">Watch</router-link> |
   </div>
   <router-view/>
 </template>

@@ -14,6 +14,15 @@ import DataBindingButton from '../views/DataBindingButton.vue'
 import DataBindingClass from '../views/DataBindingClass.vue'
 import DataBindingClass2 from '../views/DataBindingClass2.vue'
 import DataBindingStyle from '../views/DataBindingStyle.vue'
+import DataBindingList from '../views/DataBindingList.vue'
+import DataBindingVIf from '../views/DataBindingVIf.vue'
+import DataBindingVShow from '../views/DataBindingVShow.vue'
+import EventClick from '../views/EventClick.vue'
+import EventClick2 from '../views/EventClick2.vue'
+import EventClick3 from '../views/EventClick3.vue'
+import EventChange from '../views/EventChange.vue'
+import Computed from '../views/Computed.vue'
+import Watch from '../views/Watch.vue'
 const routes = [
   {
     path: '/',
@@ -97,6 +106,51 @@ const routes = [
     path: '/databindingStyle',
     name: 'DataBindingStyle',
     component: DataBindingStyle
+  },
+  {
+    path: '/databindingList',
+    name: 'DataBindingList',
+    component: DataBindingList
+  },
+  {
+    path: '/databindingVIf',
+    name: 'DataBindingVIf',
+    component: DataBindingVIf
+  },
+  {
+    path: '/databindingVShow',
+    name: 'DataBindingVShow',
+    component: DataBindingVShow
+  },
+  {
+    path: '/eventClick',
+    name: 'EventClick',
+    component: EventClick
+  },
+  {
+    path: '/eventClick2',
+    name: 'EventClick2',
+    component: EventClick2
+  },
+  {
+    path: '/eventClick3',
+    name: 'EventClick3',
+    component: EventClick3
+  },
+  {
+    path: '/eventChange',
+    name: 'EventChange',
+    component: EventChange
+  },
+  {
+    path: '/computed',
+    name: 'Computed',
+    component: Computed
+  },
+  {
+    path: '/watch',
+    name: 'Watch',
+    component: Watch
   }
 ]
 
