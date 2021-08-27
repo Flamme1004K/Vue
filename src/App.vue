@@ -25,6 +25,7 @@
     <router-link to="/eventChange">EventChange</router-link> |
     <router-link to="/computed">Computed</router-link> |
     <router-link to="/watch">Watch</router-link> |
+    <router-link to="/nested">Nested</router-link> |
   </div>
   <router-view/>
 </template>

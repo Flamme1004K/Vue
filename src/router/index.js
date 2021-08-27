@@ -23,6 +23,7 @@ import EventClick3 from '../views/EventClick3.vue'
 import EventChange from '../views/EventChange.vue'
 import Computed from '../views/Computed.vue'
 import Watch from '../views/Watch.vue'
+import Nested from '../views/NestedComponent.vue'
 const routes = [
   {
     path: '/',
@@ -151,6 +152,11 @@ const routes = [
     path: '/watch',
     name: 'Watch',
     component: Watch
+  },
+  {
+    path: '/nested',
+    name: 'Nested',
+    component: Nested
   }
 ]
 
