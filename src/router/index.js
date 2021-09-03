@@ -24,6 +24,7 @@ import EventChange from '../views/EventChange.vue'
 import Computed from '../views/Computed.vue'
 import Watch from '../views/Watch.vue'
 import Nested from '../views/NestedComponent.vue'
+import Calculator from '../views/Calculator.vue'
 const routes = [
   {
     path: '/',
@@ -157,6 +158,11 @@ const routes = [
     path: '/nested',
     name: 'Nested',
     component: Nested
+  },
+  {
+    path: '/calculator',
+    name: 'Calculator',
+    component: Calculator
   }
 ]
 

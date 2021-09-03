@@ -26,6 +26,7 @@
     <router-link to="/computed">Computed</router-link> |
     <router-link to="/watch">Watch</router-link> |
     <router-link to="/nested">Nested</router-link> |
+    <router-link to="/calculator">Calculator</router-link> |
   </div>
   <router-view/>
 </template>
